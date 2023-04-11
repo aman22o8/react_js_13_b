@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.list_container {
+  list-style-type: none;
+
+  margin-right: 10px;
+  outline: none;
+}
+.button_for_tab {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #7b8794;
+  font-family: 'Bree Serif';
+  background-color: transparent;
+  margin-right: 5px;
+  outline: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #7b8794;
+  border-style: solid;
+  cursor: pointer;
+}
+.active_button_tab {
+  border-bottom-width: 2px;
+  border-bottom-color: #2563eb;
+  color: #2563eb;
+  border-style: solid;
+}

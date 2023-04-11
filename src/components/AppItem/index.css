@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.app_list_container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.app_container_acs {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  width: 90px;
+}
+.image {
+  height: 60px;
+  width: 60px;
+}
+.app_name {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+  color: #1e293b;
+}
+
+@media screen and (max-width: 768px) {
+  .app_list_container {
+    margin: 5px;
+    padding-top: 5px;
+  }
+  .app_container_acs {
+    height: 80px;
+    width: 70px;
+  }
+  .image {
+    height: 35px;
+    width: 35px;
+  }
+  .app_name {
+    font-size: 10px;
+    font-weight: 400;
+  }
+}
